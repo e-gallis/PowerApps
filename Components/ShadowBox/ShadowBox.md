@@ -25,8 +25,8 @@ Drop shadow placed behind a text input box:
 ![TextInputDropShadow](images/TextBoxDropShadow.gif)
 
 Nice visual cards:
-![VisualCard1](images/images/ShadowBoxVisualCard1.png)
+![VisualCard1](images/ShadowBoxVisualCard1.png)
 
-![VisualCard1](images/images/ShadowBoxVisualCard2.png)
+![VisualCard2](images/ShadowBoxVisualCard2.png)
 
-![VisualCard1](images/images/ShadowBoxVisualCard3.png)
+![VisualCard3](images/ShadowBoxVisualCard3.png)
