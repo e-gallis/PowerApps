@@ -15,7 +15,7 @@ Here are the properties available to configure the progress bar:
 
 ### Examples
 Set the **LineCapRound** property of the component to **False** if you want your progress bar look like this:
-![CircleProgressBar-square](Components/CircleProgressBar/images/CircleProgressBar-square.png)
+![CircleProgressBar-square](images/CircleProgressBar-square.png)
 
 ### Updates
 - **05-20-2019**: fixed the **ShowLabel** property that was not effective + added new **LineCapRound** property

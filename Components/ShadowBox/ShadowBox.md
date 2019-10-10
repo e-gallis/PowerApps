@@ -22,11 +22,11 @@ Here are the properties available to configure the box:
 Using all these properties can allow you to create from simple box shadows to nice visual cards...
 
 Drop shadow placed behind a text input box:
-![TextInputDropShadow](Components/ShadowBox/images/TextBoxDropShadow.gif)
+![TextInputDropShadow](images/TextBoxDropShadow.gif)
 
 Nice visual cards:
-![VisualCard1](Components/ShadowBox/images/images/ShadowBoxVisualCard1.png)
+![VisualCard1](images/images/ShadowBoxVisualCard1.png)
 
-![VisualCard1](Components/ShadowBox/images/images/ShadowBoxVisualCard2.png)
+![VisualCard1](images/images/ShadowBoxVisualCard2.png)
 
-![VisualCard1](Components/ShadowBox/images/images/ShadowBoxVisualCard3.png)
+![VisualCard1](images/images/ShadowBoxVisualCard3.png)
