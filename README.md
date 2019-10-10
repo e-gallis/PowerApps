@@ -11,7 +11,7 @@ Link to download the component MSAPP file: [Download here](Components/ShadowBox/
 ## Circle Progress Bar
 This component is a configurable circle progress bar:
 
-![CircleProgressBar](Components/CircleProgressBar/CircleProgressBar.png)
+![CircleProgressBar](Components/CircleProgressBar/images/CircleProgressBar.png)
 
 [Click here for details](Components/CircleProgressBar/CircleProgressBar.md)
 
