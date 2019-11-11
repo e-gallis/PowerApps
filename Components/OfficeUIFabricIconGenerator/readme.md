@@ -23,6 +23,6 @@ Here is a capture of how the component looks:
 ## IMPORTANT notes
 **NOTE 1** - This component is **not yet** compatible with Power Apps applications that use the *Phone* layout. It will be in a future update.
 
-**NOTE 2** - Since the component holds the (almost) two thousands of icons data in a local collection, scrolling through the list of icons can be tedious. That is why using the search bar should be used instead.
+**NOTE 2** - Since the component holds the (almost) **two thousands** of icons data in a local collection, scrolling through the list of icons can be tedious. So you should **use the search** bar instead.
 
-**NOTE 3** - Once you have finished making your application remove the screen containing the *OfficeUIFabricIconGenerator* component to reduce the size of your application.
+**NOTE 3** - Once you have finished making your application **remove** the screen containing the *OfficeUIFabricIconGenerator* component to reduce the size of your application.
