@@ -1,4 +1,13 @@
 # Components
+## Ultimate Color Picker
+This highly customizable color picker will show a wide range of palette colors based on main colors (middle row) you provide.
+
+![UltimateColorPicker](Components/UltimateColorPicker/images/UltimateColorPicker.png)
+
+[Click here for details](Components/UltimateColorPicker/readme.md).
+
+Link to download the component MSAPP file: [Download here](Components/UltimateColorPicker/UltimateColorPicker.msapp).
+
 ## Office UI Fabric Icon Generator
 This component allows one to generate the SVG code for an icon picked among the whole list of the Office UI Fabric Icons (which can be [found here](https://uifabricicons.azurewebsites.net/)). This SVG code can then be used in an *Image* control in any Power Apps application.
 
