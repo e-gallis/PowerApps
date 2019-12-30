@@ -1,4 +1,13 @@
 # Components
+## Shadow Circle
+This component allows you to create a circle with its configurable drop shadow, inner solid or gradient color fill:
+
+![ShadowCircle](Components/ShadowCircle/images/ShadowCircle.png)
+
+[Click here for details](Components/ShadowCircle/readme.md).
+
+Link to download the component MSAPP file: [Download here](Components/ShadowCircle/ShadowCircle.msapp).
+
 ## Ultimate Color Picker
 This highly customizable color picker will show a wide range of palette colors based on main colors (middle row) you provide.
 
@@ -22,7 +31,7 @@ This component shows a rectangle with a configurable drop shadow and colouring:
 
 ![ShadowBox](Components/ShadowBox/images/ShadowBox.png)
 
-[Click here for details](Components/ShadowBox/ShadowBox.md) and other nice examples.
+[Click here for details](Components/ShadowBox/readme.md) and other nice examples.
 
 Link to download the component MSAPP file: [Download here](Components/ShadowBox/ShadowBox.msapp).
 
