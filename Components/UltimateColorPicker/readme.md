@@ -1,8 +1,7 @@
 > __*05-jan-2020 update*__
-> There is currently a **bug** in the Power Apps component's import process that overwrites properties of some controls inside the component. This leads to some of the component's controls to be **misplaced** on the screen. A support ticket has been filed to the Power Apps support team.
+> There is currently a **bug** in the Power Apps component's import process that overwrites properties of some controls inside the component. This leads to some of the component's controls to be **misplaced** on the screen. A support ticket has been filed to the Power Apps support team. Meanwhile, here is a workaround procedure...
 
-> Meanwhile, here is a workaround procedure...
-> - **AFTER** you've imported the component in your application, edit it and set the following controls properties:
+> **AFTER** you've imported the component in your application, edit it and set the following controls properties:
 > - **galPaletteCP.Y** = ctrTitleCP.Y + ctrTitleCP.Height * ctrTitleCP.Visible + 20
 > - **recMainColorCP.X** = UltimateColorPicker.ColorSquaresPadding - 1
 > - **galDarkColorsCP.Width** = UltimateColorPicker.ColorSquareSize + UltimateColorPicker.ColorSquaresPadding * 2
