@@ -21,12 +21,12 @@ Here are the properties available to configure the progress bar:
 - **ReservedHeight** (number) = in pixels, the calculated height needed by the component to display all the steps correctly (by design inside the component, it feeds the component's height; if you change the height of the component manually you will loose the automatic sizing of the component; to make it automatic again, feed the **Height** property of the component with its own **ReservedHeight** property)
 
 ## Example
-Here is how your progress bar can look:
+Here is how your progress bar can look:\
 ![MetroVerticalProgressBar-Example1](images/MetroVerticalProgressBar_ex1.png)
 
 ## Notes
 ### Why ActiveStep and SelectedStep?
-Separating the current active step from the selected step when a user clicks on a step allows you to put some code in-between. Meaning, when a user clicks on a step, you can do some checks *before* you actually set that step as active.
+Separating the current active step from the selected step when a user clicks on a step allows you to put some code in-between. Meaning, when a user clicks on a step, you can do some checks *before* you actually set that step as active.\
 To do so, just add a hidden toggle on your screen, set its **Default** property to the **OnSelect** output property from the component and in the **OnCheck** event of the toggle put your code to do the checks you want. Then at the end of your code, set a variable to change the **ActiveStep** of the progress bar to the **SelectedStep** value.
 
 ## History

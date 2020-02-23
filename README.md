@@ -1,4 +1,13 @@
 # Components
+## Metro Vertical Progress Bar
+This component is a fully customizable progress bar with a metro/stations like look:
+
+![MetroVerticalProgressBar-Example1](Components/MetroVerticalProgressBar/images/MetroVerticalProgressBar_ex1.png)
+
+[Click here for details](Components/MetroVerticalProgressBar/readme.md).
+
+Link to download the component MSAPP file: [Download here](Components/MetroVerticalProgressBar/MetroVerticalProgressBar.msapp).
+
 ## Shadow Circle
 This component allows you to create a circle with its configurable drop shadow, inner solid or gradient color fill:
 
