@@ -1,26 +1,3 @@
-> __*05-jan-2020 update*__
-> There is currently a **bug** in the Power Apps component's import process that overwrites properties of some controls inside the component. This leads to some of the component's controls to be **misplaced** on the screen. A support ticket has been filed to the Power Apps support team. Meanwhile, here is a workaround procedure...
-
-> **AFTER** you've imported the component in your application, edit it and set the following controls properties:
-> - **galPaletteCP.Y** = ctrTitleCP.Y + ctrTitleCP.Height * ctrTitleCP.Visible + 20
-> - **recMainColorCP.X** = UltimateColorPicker.ColorSquaresPadding - 1
-> - **galDarkColorsCP.Width** = UltimateColorPicker.ColorSquareSize + UltimateColorPicker.ColorSquaresPadding * 2
-> - **recDarkColorCP.X** = -1
-> - **recDarkColorCP.Y** = -1
-> - **recDarkColorCP.Width** = UltimateColorPicker.ColorSquareSize + 2
-> - **galLightColorsCP.Width** = UltimateColorPicker.ColorSquareSize + UltimateColorPicker.ColorSquaresPadding * 2
-> - **recLightColorCP.X** = -1
-> - **recLightColorCP.Y** = -1
-> - **recLightColorCP.Width** = UltimateColorPicker.ColorSquareSize + 2
-> - **galBlackWhitePaletteCP.Y** = galPaletteCP.Y + galPaletteCP.Height + 10
-> - **galBlackWhitePaletteCP.Height** = UltimateColorPicker.ColorSquareSize
-> - **recBlackWhiteColorCP.X** = 1
-> - **recBlackWhiteColorCP.Height** = recBlackWhiteColorCP.Width
-
-> Once you've set these properties, don't pay any attention at how the component looks like in the component editor. Just go back to your application's screens and insert the color picker wherever you want to use it: it will look just like the capture below.
-
-> Thank you for your understanding.
-
 # UltimateColorPicker component
 This color picker component will automatically calculate a palette of light and dark shades based on a list of main colors you will provide.
 
