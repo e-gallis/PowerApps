@@ -1,4 +1,13 @@
 # Components
+## Toggle Set
+This component lets you create and customize a set of items that can be toggled:
+
+![ToggleSet](Components/ToggleSet/images/ToggleSet.png)
+
+[Click here for details](Components/ToggleSet/readme.md).
+
+Link to download the component MSAPP file: [Download here](Components/ToggleSet/ToggleSet.msapp).
+
 ## Metro Vertical Progress Bar
 This component is a fully customizable progress bar with a metro/stations like look:
 
