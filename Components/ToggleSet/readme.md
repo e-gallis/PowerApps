@@ -2,7 +2,8 @@
 This component allows you to add a fully customizable togglet set to your applications.
 
 ## Notes
-The size of the toggle set items adjusts automatically to the width and height of the component.
+- The size of the toggle set items adjusts automatically to the width and height of the component.
+- To make sure the component pre-selects some items when your app screen is shown, be sure to have their *Selected* column set to *True* and call the **Reset()** function inside the *OnVisible* event of your screen
 
 ## Properties
 Here are the properties available to configure the component:
