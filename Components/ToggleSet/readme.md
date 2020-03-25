@@ -16,8 +16,8 @@ Here are the properties available to configure the component:
 - **FontWeight** (color) = font weight for the item labels
 - **Items** (table) = list of items for the toggle set (columns are: *Id*, *Value*, *Disabled*, *Size*, *Selected*)
 - **ItemFill** (color) = fill color for non-selected items
+- **MaxSelectedItems** (number) = maximum number of items that can be selected (only if *SelectMultiple* is *True*, then value should be between 2 and number of items in *Items*)
 - **Radius** (number) = in pixels, radius for the left and right corners of the component
-- **Reset** (boolean) = resets the components to its defaults pre-selected items specified in the *Items* property (use the *Selected* column)
 - **SelectedBorderColor** (color) = border color of selected items
 - **SelectedColor** (color) = text color for selected items
 - **SelectedFill** (color) = fill color for selected items
@@ -36,3 +36,6 @@ Using all these properties you can create various toggle sets like this:
 ## HISTORY changes
 **v1.0** [ 24-mar-2020 ]
 - Initial publish
+**v1.1** [ 25-mar-2020]
+- Removed *Reset* parameter (use **Reset()** function instead)
+- Added *MaxSelectedItems* parameter
