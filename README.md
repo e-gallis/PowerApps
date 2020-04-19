@@ -1,4 +1,13 @@
 # Components
+## Auto Width Label Generator
+This component will provide you with a solution to make your Power Apps label controls adapt their width to their content.
+
+![AutoWidthLabelGenerator](Components/AutoWidthLabelGenerator/images/AutoWidthLabelGenerator.png)
+
+[Click here for details](Components/AutoWidthLabelGenerator/readme.md).
+
+Link to download the component MSAPP file: [Download here](Components/AutoWidthLabelGenerator/AutoWidthLabelGenerator.msapp).
+
 ## Toggle Set
 This component lets you create and customize a set of items that can be toggled:
 
