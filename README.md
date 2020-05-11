@@ -67,6 +67,6 @@ This component is a configurable circle progress bar:
 
 ![CircleProgressBar](Components/CircleProgressBar/images/CircleProgressBar.png)
 
-[Click here for details](Components/CircleProgressBar/CircleProgressBar.md)
+[Click here for details](Components/CircleProgressBar/readme.md)
 
 Link to download the component MSAPP file: [Download here](Components/CircleProgressBar/CircleProgressBar.msapp).
