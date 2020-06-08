@@ -1,4 +1,13 @@
 # Components
+## Control Animator
+This component will allow you to animate your controls within your Power Apps canvas applications.
+
+![ControlAnimator](Components/ControlAnimator/images/ControlAnimatorSampleHamburger.gif)
+
+[Click here for details](Components/ControlAnimator/readme.md).
+
+Link to download the component MSAPP file: [Download here](Components/AutoWidthLabelGenerator/AutoWidthLabelGenerator.msapp).
+
 ## Auto Width Label Generator
 This component will provide you with a solution to make your Power Apps label controls adapt their width to their content.
 
