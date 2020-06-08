@@ -68,8 +68,8 @@ Here are the properties available to configure the box:
 - **AnimationTypeEnum** (record) = enumeration of all availables animations (use it to set the **AnimationType** input property of the component)
 
 ## Files
-- **ControlAnimator.msapp**: the component
-- **ControlAnimatorApp.zip**: an application to test the component and check-out how each animation looks like
+- **ControlAnimator.msapp**: the component (use the *Import component* option from the *Custom* menu of the *Insert* tab directly within the Power Apps Studio to add the component to your app)
+- **ControlAnimatorApp.zip**: an application to test the component and check-out how each animation looks like (use the *Import canvas app* button in the Power Apps *Apps* menu to install it on your tenant)
 
 ![ControlAnimatorApp](images/ControlAnimator.png)
 
