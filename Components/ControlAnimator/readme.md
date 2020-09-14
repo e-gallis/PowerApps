@@ -52,7 +52,7 @@ The following animations are available:
 Globally speaking, animation 'speeds-up' when used in the following order: **Cubic** > **Quadratic** > **Quartic** > **Quintic**.
 
 ## Properties
-Here are the properties available to configure the box:
+Here are the properties available to configure the animation:
 ### Input
 - **StartValue** (number) = starting value
 - **EndValue** (number) = ending value
