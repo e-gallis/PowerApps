@@ -1,4 +1,13 @@
 # Components
+## IBAN Checker
+This component will allow you to check if an IBAN number is correct.
+
+![IBANChecker](Components/IbanChecker/images/IbanChecker.png)
+
+[Click here for details](Components/IbanChecker/readme.md).
+
+Link to download the component MSAPP file: [Download here](Components/IbanChecker/IBANChecker.msapp).
+
 ## Control Animator
 This component will allow you to animate your controls within your Power Apps canvas applications.
 
