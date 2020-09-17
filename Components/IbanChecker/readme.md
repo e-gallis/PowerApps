@@ -5,6 +5,10 @@ Once it has been added to your app, the component will just show you a set of to
 
 ![IbanChecker](images/IbanChecker.png)
 
+Using the compact mode (see **CompactMode** input property below), you can ask the component to just display an icon showing the result of the check:
+
+![IbanChecker](images/CompactMode.png)
+
 Supported countries are (along with their IBAN country code):
 - Albania, AL
 - Algeria, DZ
@@ -33,6 +37,7 @@ Supported countries are (along with their IBAN country code):
 - Denmark, DK
 - Dominican Republic, DO
 - East Timor, TL
+- El Salvador, SV
 - Egypt, EG
 - Estonia, EE
 - Faroe Islands, FO
@@ -86,6 +91,7 @@ Supported countries are (along with their IBAN country code):
 - Romania, RO
 - Saint Lucia, LC
 - San Marino, SM
+- Sao Tome and Principe, ST
 - Saudi Arabia, SA
 - Senegal, SN
 - Serbia, RS
@@ -108,6 +114,8 @@ Supported countries are (along with their IBAN country code):
 Here are the properties available to configure and use the component:
 ### Input
 - **IBAN** (text) = the IBAN number
+- **CompactMode** (boolean) = only shows a red cross icon or a green check icon depending on the IBAN verification result
+- **ErrorMessages** (record) = list of messages to show as a tooltip when hovering the icon in **CompactMode**
 ### Output
 - **IBANCheck** (boolean) = *true* if the IBAN number is correct
 - **CountryCheck** (boolean) = *true* if the IBAN number's country is supported by the component
@@ -133,3 +141,13 @@ The following other output parameters are for INTERNAL USE only:
 - If the **IBANCheck** output parameter of the component is *true*, the IBAN number is correct
 - When an IBAN number is incorect (**IBANCheck**=*false*), you can use the **CountryCheck**, **KeyCheck** and **LengthCheck** output parameters to determine what is wrong (if it's *false*, that's where the problem lies)
 - Hide the component if you just want to use the **IBANCheck** output property to verify the validity of an IBAN number
+
+## HISTORY changes
+**v0.1** [ 14-sept-2020 ]
+- Initial publish
+
+**v0.2** [ 18-sept-2020 ]
+- Fixed an issue where very large IBAN numbers wouldn't check out correctly
+- Added 2 new countries: SV & ST
+- Added a compact mode view
+- Rebranded the component
