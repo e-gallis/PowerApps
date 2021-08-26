@@ -1,4 +1,13 @@
 # Components
+## Progress Bar
+This component is a fully customizable progress bar.
+
+![ProgressBar](Components/ProgressBar/images/ProgressBarSamples.gif)
+
+[Click here for details](Components/ProgressBar/readme.md).
+
+Link to download the component MSAPP file: [Download here](Components/ProgressBar/ProgressBar.msapp).
+
 ## IBAN Checker
 This component will allow you to check if an IBAN number is correct.
 
