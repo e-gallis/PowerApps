@@ -12,7 +12,7 @@ For instance, let's say you have a control called *cmpColorPicker* to which you'
     o ShadowBox.Width = cmpColorPicker.Width + ShadowBox.MarginLeft + ShadowBox.MarginRight
     o ShadowBox.Height = cmpColorPicker.Height + ShadowBox.MarginTop + ShadowBox.MarginBottom
 ```
-### Making a full circle shadow
+### Making a full circle shadow (v2.0)
 Setting the **Radius** option from the **Box** input property to a large value (actually greater than half the height of the box) will allow you to produce a full-circle shadow (assuming your box is square). For instance, it can be done this way:
 ```
     o ShadowBox.Width = Self.Height
