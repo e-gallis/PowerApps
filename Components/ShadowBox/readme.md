@@ -5,18 +5,23 @@ This component shows a rectangle with a configurable drop shadow and colouring e
 ### Align the shadow with your controls (v1.1)
 Use the **MarginLeft**, **MarginRight**, **MarginTop** and **MarginBottom** output parameters to fit your shadow easily to your desired control.
 For instance, let's say you have a control called *cmpColorPicker* to which you'd like to apply a shadow:
-- Add a ShadowBox component to your screen and set its position and size as follow:
+- Add the component to your screen, name it *cmpMyShadowBox* and set its position and size as follow:
 ```
-    o ShadowBox.X = cmpColorPicker.X - ShadowBox.MarginLeft
-    o ShadowBox.Y = cmpColorPicker.Y - ShadowBox.MarginTop
-    o ShadowBox.Width = cmpColorPicker.Width + ShadowBox.MarginLeft + ShadowBox.MarginRight
-    o ShadowBox.Height = cmpColorPicker.Height + ShadowBox.MarginTop + ShadowBox.MarginBottom
+    o cmpMyShadowBox.X = cmpColorPicker.X - cmpMyShadowBox.MarginLeft
+    o cmpMyShadowBox.Y = cmpColorPicker.Y - cmpMyShadowBox.MarginTop
+    o cmpMyShadowBox.Width = cmpColorPicker.Width + cmpMyShadowBox.MarginLeft + cmpMyShadowBox.MarginRight
+    o cmpMyShadowBox.Height = cmpColorPicker.Height + cmpMyShadowBox.MarginTop + cmpMyShadowBox.MarginBottom
+```
+### Setting the edge position (v2.0)
+Let's say you've added the component in your app and that you've named it *cmpMyShadowBox*. To set its edge position, simply set its **Position** option inside its **Edge** input parameter like this:
+```
+    cmpMyShadowBox.Edge.Position = cmpMyShadowBox.EdgePositionEnum.Left
 ```
 ### Making a full circle shadow (v2.0)
 Setting the **Radius** option from the **Box** input property to a large value (actually greater than half the height of the box) will allow you to produce a full-circle shadow (assuming your box is square). For instance, it can be done this way:
 ```
-    o ShadowBox.Width = Self.Height
-    o ShadowBox.Box.Radius = Self.Height
+    o cmpMyShadowBox.Width = Self.Height
+    o cmpMyShadowBox.Box.Radius = Self.Height
 ```
 **IMPORTANT**: when rouding the corners of the box, the edge cannot be displayed. The edge can be visible only if *Box.Radius = 0*.
 
