@@ -81,9 +81,9 @@ This component allows one to generate the SVG code for an icon picked among the 
 Link to download the component MSAPP file: [Download here](Components/OfficeUIFabricIconGenerator/OfficeUIFabricIconGenerator.msapp).
 
 ## Shadow Box
-This component shows a rectangle with a configurable drop shadow and colouring:
+This component shows a [rounded] rectangle with a configurable drop shadow and colouring:
 
-![ShadowBox](Components/ShadowBox/images/ShadowBox.png)
+![ShadowBoxSamples](Components/ShadowBox/images/ShadowBoxSamples.png)
 
 [Click here for details](Components/ShadowBox/readme.md) and other nice examples.
 
