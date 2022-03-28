@@ -1,4 +1,13 @@
 # Components
+## Form Factor Selector
+This component allows you to change your app's screen form factor within the Power Apps Studio.
+
+![FormFactorSelector](Components/FormFactorSelector/images/FormFactorSelector.gif)
+
+[Click here for details](Components/FormFactorSelector/readme.md).
+
+Link to download the component MSAPP file: [Download here](Components/FormFactorSelector/FormFactorSelector.msapp).
+
 ## Progress Bar
 This component is a fully customizable progress bar.
 
