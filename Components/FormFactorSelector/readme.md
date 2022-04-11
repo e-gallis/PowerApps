@@ -23,6 +23,8 @@ Here are the properties available to configure the component:
 - **ScreenWidth** (number) = screen width value for the selected form factor
 - **ScreenHeight** (number) = screen height for the selected form factor
 - **Selected** (text) = selected form factor (taken from the **FormFactorEnum** enumeration)
+### Events
+- **OnChange** = triggered every time the form factor changes by clicking on an icon
 
 ## How does it look ?
 Here is a capture of how the component looks like and how it works:
@@ -32,3 +34,6 @@ Here is a capture of how the component looks like and how it works:
 ## HISTORY changes
 **v1.0** [ 28-mar-2022 ]
 - Initial version
+
+** v1.1** [ 11-apr-2022]
+- Added OnChange event
