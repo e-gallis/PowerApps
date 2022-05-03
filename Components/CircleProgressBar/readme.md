@@ -23,5 +23,6 @@ Set the **LineCapRound** property of the component to **False** if you want your
 ![CircleProgressBar-square](images/CircleProgressBar-square.png)
 
 ### Updates
-- **05-20-2019**: fixed the **ShowLabel** property that was not effective + added new **LineCapRound** property
-- **05-11-2020**: added the **ValueMode**, **PercentageDecimals** and **ValueModeEnum** properties to allow different display modes for the value
+- **20-may-2019**: fixed the **ShowLabel** property that was not effective + added new **LineCapRound** property
+- **11-may-2020**: added the **ValueMode**, **PercentageDecimals** and **ValueModeEnum** properties to allow different display modes for the value
+- **03-may-2022**: fixed division-by-zero error message showing up from time to times
