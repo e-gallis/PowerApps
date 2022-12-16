@@ -1,4 +1,15 @@
 # Components
+## Power Spinner
+This component allows you to add custom spinners to your Power Apps applications. You will also find an application that lets you play with the various spinners and get the code to place in an image control in your app.
+
+![PowerSpinner samples](Components/PowerSpinner/images/PowerSpinnerSamples.gif)
+
+[Click here for details](Components/PowerSpinner/readme.md).
+
+Link to download the component MSAPP file: [Download here](Components/PowerSpinner/PowerSpinnerComponent.msapp).
+
+Link to download the application MSAPP file: [Download here](Components/PowerSpinner/PowerSpinnerApp.msapp).
+
 ## Form Factor Selector
 This component allows you to change your app's screen form factor within the Power Apps Studio.
 
