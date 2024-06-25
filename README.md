@@ -1,4 +1,14 @@
 # Components
+## Bubble Helper
+This component will help you chain help bubbles within your canvas Power Apps applications to help your users understand how the screens of your apps work. The main **BubbleHelper** component comes with a **BubbleSteps** component where you will be able to configure the steps your bubbles will go through.
+Both these components are provided within a small app that will teach you how to set them up inside your own apps.
+
+![BubbleHelper sample](Components/BubbleHelper/images/BubbleHelper.png)
+
+[Click here for details](Components/BubbleHelper/readme.md).
+
+Link to download the small app containing the 2 components: [Download here](Components/BubbleHelper/BubbleHelper.zip).
+
 ## Power Spinner
 This component allows you to add custom spinners to your Power Apps applications. You will also find an application that lets you play with the various spinners and get the code to place in an image control in your app.
 
