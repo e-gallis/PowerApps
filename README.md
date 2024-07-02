@@ -1,4 +1,13 @@
 # Components
+## Easing Animation
+This component allows you to animate controls within your Power Apps applications. The component provides **30 different animations** that you can apply to your controls.
+
+![EasingAnimation sample](Components/EasingAnimation/images/EasingAnimation.png)
+
+[Click here for details](Components/EasingAnimation/readme.md).
+
+Link to download the small app containing the component: [Download here](Components/EasingAnimation/EasingAnimation.zip).
+
 ## Bubble Helper
 This component will help you chain help bubbles within your canvas Power Apps applications to help your users understand how the screens of your apps work. The main **BubbleHelper** component comes with a **BubbleSteps** component where you will be able to configure the steps your bubbles will go through.
 Both these components are provided within a small app that will teach you how to set them up inside your own apps.
